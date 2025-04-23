@@ -9,14 +9,17 @@ redirect_from:
 
 {% include base_path %}
 
-My complete academic and professional history is available in my curriculum vitae.
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="refresh" content="0; url=/images/your-cv-filename.pdf">
+</head>
+<body>
+  <p>Redirecting to <a href="/images/your-cv-filename.pdf">CV</a>...</p>
+</body>
+</html>
 
-<div style="text-align: center; margin: 30px 0;">
-  <a href="/images/Beheler-Amass_CV_spring2025.pdf" class="btn" style="padding: 10px 20px; background-color: #0366d6; color: white; text-decoration: none; border-radius: 5px;">View/Download CV (PDF)</a>
-</div>
-
-<small>Last updated: April 2025</small>
-<!--
+{% comment %}
 Education
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
@@ -70,3 +73,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+{% comment %}
